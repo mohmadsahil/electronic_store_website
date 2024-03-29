@@ -8,7 +8,6 @@
 /*! layout */
 .container {
   max-width: 100%;
-  margin: 0 auto;
   padding: 2% ;
 }
 
@@ -18,6 +17,7 @@
 }
 
 .main-Navbar{
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,6 +58,7 @@ li{
   color: #004AAD;
   cursor: pointer;
 }
+
 /* *******************HOME HERO SECTION******************/
 
 .hero-section{
@@ -65,8 +66,8 @@ li{
   width: 100%;
 }
 .sub-hero-section{
+  width: 100%;
   display: flex;
-  justify-content:space-between;
   align-items: center;
 }
 .home-appiances-image{
@@ -105,24 +106,27 @@ li{
 
 .left-offer-card{
   height: 100%;
-  width: 50%;
+  width: 48%;
 }
 .right-offer-card{
   height: 100%;
-  width: 50%;
+  width: 48%;
 }
 .cart-section
 {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 3%;
 }
 .offer-cards{
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #f4f4f4;
-  margin: 2%;
+  width: 100%;
+  margin: 1.5%;
   border-radius: 5%;
   box-shadow: 5px 10px 10px #888888;
 }
@@ -147,8 +151,9 @@ li{
 /* ********************ALL SERICE***************** */
 
 .all-services-img{
-  height: auto;
+  height: 100%;
   width: 100%;
+  margin-top: -1%;
 }
 
 /*****************OUT PRODUCT SECTION********************/

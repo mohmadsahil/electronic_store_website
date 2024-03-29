@@ -29,6 +29,9 @@
       .Nav-link{
         font-size: 70%;
       }
+      .card_category {
+        font-size: 40%;
+      }
 }
 
 @media only screen and (max-width:700px ){
@@ -72,6 +75,10 @@
 
   .Nav-item{
     display: none;
+  }
+  .showData{
+    display: flex;
+    flex-direction: column;
   }
   .logo-image{
     width: 25%;
