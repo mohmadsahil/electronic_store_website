@@ -189,8 +189,8 @@ li{
   color: black;
   font-size: 60%;
   font-weight: 600;
-  padding: 4px;
-  border-radius: 3px;
+  padding: 3px;
+  border-radius: 10px;
 }
 .main_card_category
 {

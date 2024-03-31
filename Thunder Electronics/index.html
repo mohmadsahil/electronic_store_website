@@ -32,7 +32,7 @@
                 <a class="Nav-link" href="/">CONTACT</a>
               </li>
               <li class="Nav-item">
-                <a class="cart-button" href="/">
+                <a class="cart-button" id="cartValue" href="/">
                   <i class="fa-solid fa-cart-shopping"> 0 </i>
                 </a>
               </li>
@@ -132,7 +132,7 @@
 <!-- ********************* PRODUCT CARD TEMPLATE******************** -->
 
 <template id="products_card_template">
-    <div class="Main-card-container container">
+    <div class="Main-card-container container" id="cardValue">
 
         <div class="card_information">
           <div>
@@ -168,15 +168,17 @@
           </div>
 
           <div class="product_qty_container">
+
             <div class="qyt_description">
               <p>Qyt</p>
             </div>
 
             <div class="qyt_element">
               <button class="cart_increment">+</button>
-              <p class="product_qyt">1</p>
+              <p class="product_qyt" data-quantity="1" >1</p>
               <button class="cart_decrement">-</button>
             </div>
+
           </div>
 
           <button class="add-to-cart-button">

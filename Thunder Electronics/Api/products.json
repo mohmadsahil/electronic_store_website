@@ -60,7 +60,7 @@
         "image":"./public/images/Washing machine image.png"
     },
     {
-        "id":6,
+        "id":7,
         "name":"Speaker",
         "category":"Audio",
         "price":1999,
@@ -70,7 +70,7 @@
         "image":"./public/images/speaker image.png"
     },
     {
-        "id":6,
+        "id":8,
         "name":"Air Conditioner",
         "category":"Ac",
         "price":29999,
