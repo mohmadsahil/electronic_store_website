@@ -16,6 +16,7 @@ export const addToCart = (event,id,stock)=>
     // Maintaining the Cart Values
 
     let existingproduct = arrLocalStorageProduct.find((currentproduct)=>currentproduct.id == id);
+    
     if(existingproduct && Quantity > 1){
         Quantity = Number(existingproduct.Quantity) + Number(Quantity);
         price = Number(price * Quantity);
