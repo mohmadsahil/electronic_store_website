@@ -10,5 +10,6 @@ export const removeCartItem = (id)=>{
     if(RemoveDiv){
         RemoveDiv.remove();
     }
+    console.log(RemoveDiv);
     updateCartProductTotal();
 };

@@ -338,3 +338,76 @@ li{
   }
 }
 
+/* *************************CSS FOR CONTACT FORM************************ */
+
+
+.contact-container{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 7%;
+}
+.contact-container-left{
+  height: 100%;
+  width: 40%;
+}
+.contact-container-right{
+  height: 100%;
+  width: 40%;
+}
+.name-container {
+  margin: 5px 0px 5px 0px;
+}
+.name-box{
+  height: 40px;
+  width: 90%;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.email-number-container{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.number-container{
+  margin-left: 10px;
+  width: 45%;
+}
+.email-container{
+  width: 45%;
+}
+.text-box{
+  height: 40px;
+  width: 95%;
+  font-size: 15px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.message-container{
+  height: 100%;
+  width: 100%;
+}
+.message-box{
+  font-size: 15px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  resize: none;
+  height: 100px;
+  width: 90%;
+}
+.below-container{
+  height: 200px;
+}
+.contact-phone ,.contact-address, .contact-email{
+  display: flex;
+  margin: 20px 0px 20px 0px;
+  align-items: center;
+}
+.contact-phone-text{
+    margin-left: 15px;
+}
