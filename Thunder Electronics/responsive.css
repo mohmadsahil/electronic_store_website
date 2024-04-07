@@ -107,6 +107,16 @@
   .contact-container{
     flex-direction: column;
   }
+  .contact-container-left{
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 20px 10px;
+  }
+  .contact-container-right{
+    height: auto ;
+    width: 100%;
+    margin-left: 10px;
+  }
 }
 
 @media only screen and (min-width:501px ){
@@ -183,6 +193,17 @@
   }
   .product_price{
     font-size: 80%;
+  }
+  .footer{
+    flex-direction: column;
+  }
+  .left-footer{
+    width: 100%;
+    height: auto;
+  }
+  .right-footer{
+    width: 100%;
+    height: auto;
   }
 }
 

@@ -411,3 +411,76 @@ li{
 .contact-phone-text{
     margin-left: 15px;
 }
+
+/* ****************FOOTER******************/
+
+.footer{
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin-top: 50px;
+  background-color:#f4f4f4;
+  border-radius: 10px 10px 0px 0px;
+}
+.left-footer{
+  height: auto;
+  width: 50%;
+  margin-top: 20px;
+}
+.left-footer-text{
+  font-size: 25px;
+  margin: 20px 0px 20px 20px;
+}
+.left-footer-signup{
+  margin: 20px 0px 20px 20px;
+  display: flex;
+  align-items: center;
+}
+.social-media-link{
+  margin: 20px 0px 20px 20px;
+  font-size: 30px;
+  background-color: #004AAD;
+  padding: 7px;
+  color: white;
+  border-radius: 5px;
+}
+.signup-box{
+  height: 40px;
+  width: 65%;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid black;
+} 
+.arrow-signup{
+  background-color: #004AAD;
+  font-size: 35px;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+  margin-left: 5px;
+}
+.right-footer{
+  height: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.one-right-footer-text{
+  margin: 10px 0px 10px 0px;
+}
+.right-footer-text{
+  padding: 10px 0px 10px 0px;
+  align-items: center;
+}
+.footer-reserved{
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+/* **********************CSS FOR POPUP*****************************/
+
