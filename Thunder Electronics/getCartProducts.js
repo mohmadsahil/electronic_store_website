@@ -7,6 +7,6 @@ export const getCartProductFromLS = ()=>{
     }
 
     cartProducts = JSON.parse(cartProducts);
-    updateCartValue(cartProducts); //will always show the current cart value  
+    updateCartValue(cartProducts);      //will always show the current cart value  
     return cartProducts;
 }

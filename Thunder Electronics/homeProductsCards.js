@@ -5,7 +5,7 @@ const products_card_container = document.querySelector("#products_card_container
 const products_card_template = document.querySelector("#products_card_template");
 
 export const showProductsContainer = (products)=>{
-    if(!products){
+    if(!products){ // product not available
         return false
     }
 
@@ -13,7 +13,7 @@ export const showProductsContainer = (products)=>{
         const {category,description,id,image,name,price,stock,actualprice } = curProd;
         const productTemplateClone = document.importNode(products_card_template.content,true); // all the Div of Template Has Been assign that templateClone Variable
         
-        productTemplateClone.querySelector("#cardValue").setAttribute("id",`card${id}`); //will keep the every Card ID
+        productTemplateClone.querySelector("#cardValue").setAttribute("id",`card${id}`); // will keep the every Card ID
 
         productTemplateClone.querySelector(".product_name").textContent = name;
         productTemplateClone.querySelector(".product_description").textContent = description;
@@ -28,9 +28,9 @@ export const showProductsContainer = (products)=>{
         });
 
         productTemplateClone.querySelector(".add-to-cart-button").addEventListener("click",(event)=>{// Managing the Add to Card Button
-                addToCart(event,id,stock);
+                addToCart(event,id,stock);  
         })
 
-        products_card_container.append(productTemplateClone);
+        products_card_container.append(productTemplateClone); // Need to append with the clone template
     });
 };

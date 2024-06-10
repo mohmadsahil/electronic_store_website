@@ -7,7 +7,7 @@
         "actualprice":39999,
         "stock":50,
         "description":"13th Gen Intel® Core™ i3-1305U (10 MB cache, 5 cores, 6 threads, up to 4.50 GHz Turbo) 15.6 FHD 1920x1080, 120Hz, WVA, Non-Touch, Anti-Glare, 250 nit, Narrow Border, LED-Backlit",
-        "image":"./public/images/Laptop image.png"
+        "image":"./public/Laptop image.png"
     },
     {
         "id":2,
@@ -17,7 +17,7 @@
         "actualprice":9999,
         "stock":27,
         "description":"13th Gen Intel® Core™ i3-1305U (10 MB cache, 5 cores, 6 threads, up to 4.50 GHz Turbo) 15.6 FHD 1920x1080, 120Hz, WVA, Non-Touch, Anti-Glare, 250 nit, Narrow Border, LED-Backlit",
-        "image":"./public/images/phone image.png"
+        "image":"./public/phone image.png"
     },
     {
         "id":3,
@@ -27,7 +27,7 @@
         "actualprice":1499,
         "stock":12,
         "description":"13th Gen Intel® Core™ i3-1305U (10 MB cache, 5 cores, 6 threads, up to 4.50 GHz Turbo) 15.6 FHD 1920x1080, 120Hz, WVA, Non-Touch, Anti-Glare, 250 nit, Narrow Border, LED-Backlit",
-        "image":"./public/images/Headphone image.png"
+        "image":"./public/Headphone image.png"
     },
     {
         "id":4,
@@ -37,7 +37,7 @@
         "actualprice":19999,
         "stock":10,
         "description":"13th Gen Intel® Core™ i3-1305U (10 MB cache, 5 cores, 6 threads, up to 4.50 GHz Turbo) 15.6 FHD 1920x1080, 120Hz, WVA, Non-Touch, Anti-Glare, 250 nit, Narrow Border, LED-Backlit",
-        "image":"./public/images/tv image.png"
+        "image":"./public/tv image.png"
     },
     {
         "id":5,
@@ -47,7 +47,7 @@
         "actualprice":3999,
         "stock":17,
         "description":"13th Gen Intel® Core™ i3-1305U (10 MB cache, 5 cores, 6 threads, up to 4.50 GHz Turbo) 15.6 FHD 1920x1080, 120Hz, WVA, Non-Touch, Anti-Glare, 250 nit, Narrow Border, LED-Backlit",
-        "image":"./public/images/smartwatch image.png"
+        "image":"./public/smartwatch image.png"
     },
     {
         "id":6,
@@ -57,7 +57,7 @@
         "actualprice":17999,
         "stock":20,
         "description":"13th Gen Intel® Core™ i3-1305U (10 MB cache, 5 cores, 6 threads, up to 4.50 GHz Turbo) 15.6 FHD 1920x1080, 120Hz, WVA, Non-Touch, Anti-Glare, 250 nit, Narrow Border, LED-Backlit",
-        "image":"./public/images/Washing machine image.png"
+        "image":"./public/Washing machine image.png"
     },
     {
         "id":7,
@@ -67,7 +67,7 @@
         "actualprice":2299,
         "stock":20,
         "description":"13th Gen Intel® Core™ i3-1305U (10 MB cache, 5 cores, 6 threads, up to 4.50 GHz Turbo) 15.6 FHD 1920x1080, 120Hz, WVA, Non-Touch, Anti-Glare, 250 nit, Narrow Border, LED-Backlit",
-        "image":"./public/images/speaker image.png"
+        "image":"./public/speaker image.png"
     },
     {
         "id":8,
@@ -77,6 +77,6 @@
         "actualprice":32999,
         "stock":20,
         "description":"13th Gen Intel® Core™ i3-1305U (10 MB cache, 5 cores, 6 threads, up to 4.50 GHz Turbo) 15.6 FHD 1920x1080, 120Hz, WVA, Non-Touch, Anti-Glare, 250 nit, Narrow Border, LED-Backlit",
-        "image":"./public/images/Ac image.png"
+        "image":"./public/Ac image.png"
     }
 ]

@@ -10,7 +10,7 @@ export const addToCart = (event,id,stock)=>
     const currentClickCard = document.querySelector(`#card${id}`);
     let Quantity = currentClickCard.querySelector(".product_qyt").innerText;
     let price = currentClickCard.querySelector(".product_price").innerText;
-
+    
     price = price.replace("₹","");
 
     // Maintaining the Cart Values

@@ -4,14 +4,13 @@ import { getCartProductFromLS } from "./getCartProducts";
 import { incrementDecrement } from "./incrementDecrement";
 import { removeCartItem } from "./removeCartItem";
 import { updateCartProductTotal } from "./updateCartProductTotal";
-import { updateCartValue } from "./updateCartValue";
 
 
 let cartProducts = getCartProductFromLS();
 
 let filterproducts = products.filter((currentproduct)=>{
     return cartProducts.some((currentElement)=> // some() is a itirative method that will return all the element after comparison but with map and filter we can't get the data with comparison
-        currentElement.id == currentproduct.id)
+           currentElement.id == currentproduct.id)
 })
 
 const cartElement = document.querySelector("#productCartContainer");
